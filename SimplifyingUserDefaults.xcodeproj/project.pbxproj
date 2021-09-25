@@ -13,6 +13,7 @@
 		89C6D6AB26FF3D3B002BA137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D6A926FF3D3B002BA137 /* Main.storyboard */; };
 		89C6D6AD26FF3D3E002BA137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D6AC26FF3D3E002BA137 /* Assets.xcassets */; };
 		89C6D6B026FF3D3E002BA137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C6D6AE26FF3D3E002BA137 /* LaunchScreen.storyboard */; };
+		89C6D6B926FF3E2C002BA137 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C6D6B826FF3E2C002BA137 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		89C6D6AC26FF3D3E002BA137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C6D6AF26FF3D3E002BA137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6D6B126FF3D3E002BA137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C6D6B826FF3E2C002BA137 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		89C6D6A226FF3D3B002BA137 /* SimplifyingUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				89C6D6B726FF3E15002BA137 /* Helper */,
 				89C6D6A326FF3D3B002BA137 /* AppDelegate.swift */,
 				89C6D6A526FF3D3B002BA137 /* SceneDelegate.swift */,
 				89C6D6A726FF3D3B002BA137 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				89C6D6B126FF3D3E002BA137 /* Info.plist */,
 			);
 			path = SimplifyingUserDefaults;
+			sourceTree = "<group>";
+		};
+		89C6D6B726FF3E15002BA137 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				89C6D6B826FF3E2C002BA137 /* UserDefaultsManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				89C6D6A826FF3D3B002BA137 /* ViewController.swift in Sources */,
 				89C6D6A426FF3D3B002BA137 /* AppDelegate.swift in Sources */,
+				89C6D6B926FF3E2C002BA137 /* UserDefaultsManager.swift in Sources */,
 				89C6D6A626FF3D3B002BA137 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
